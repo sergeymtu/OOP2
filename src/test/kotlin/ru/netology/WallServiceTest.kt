@@ -38,7 +38,7 @@ class WallServiceTest {
 
         val wall = WallService()
         wall.add(post1)
-        val result = wall.update(post4)
+        val result = wall.update(post3)
 
         assertEquals(false, result)
     }
